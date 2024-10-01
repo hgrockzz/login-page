@@ -1,39 +1,58 @@
-# login-page
+# Login Page
 
+This project implements a fully functional login page with sign-up, authentication, and suggestions. The following sections detail the features:
 
-In this we will create a login page
+## Features
 
-- Sign Up Page :
-  > Name
-  > Email
-  > Send OTP to Email -- verify
-  > Set Password -- reEnter to confirm
-  > Mobile No.
-  > Send OTP to Ph.No. -- verify
-  > Sign Up Button
-  > Redirect to Login Page
+### 1. Sign Up Page
+Users can create an account by entering their details and verifying through OTPs.
 
-- Login Page :
-  > Email (registered with)
-  > Password
-  > Log In Button
+- **Name**
+- **Email**  
+  - Send OTP to Email — Verify
+- **Set Password**  
+  - Re-enter to Confirm
+- **Mobile No.**  
+  - Send OTP to Phone No. — Verify
+- **Sign Up Button**
+- **Redirect to Login Page** upon successful sign-up
 
-- Log In with
-  > Google
-  > Facebook
-  > Github
-  > Linkedin
-  > Twitter
+### 2. Login Page
+Users can log in using their registered credentials.
 
-- Log Out Option
+- **Email** (registered with)
+- **Password**
+- **Log In Button**
 
-- Suggestion Box
-  > People can write.. any popular platform to 'Log In' with
-  > Project Suggestions..
-  > Or Any Cool random stuff !!
+### 3. Log In with Popular Platforms
+Users can log in using:
 
-- NOTE: 
-  > Next Time You Open A Page.. should show logged in view of website(even after closing tab/browser/machine).
-  > If user directly changes homepage url/route..send back to LOGIN page(if not authenticated)
-  > Validate all text fields
-  > User creds/details are not exposed are not exposed 
+- Google
+- Facebook
+- GitHub
+- LinkedIn
+- Twitter
+
+### 4. Log Out Option
+Users can log out from the account at any time.
+
+### 5. Suggestion Box
+A feature allowing users to share feedback or suggestions.
+
+- Request any additional platform for "Log In" integration
+- Provide project suggestions
+- Share any cool, random thoughts!
+
+## Important Notes
+
+- **Persistent Session**:  
+  Once logged in, users will remain logged in, even if they close the tab, browser, or restart their machine.
+
+- **Route Guarding**:  
+  If a user attempts to access the homepage or any restricted route without authentication, they will be redirected back to the Login page.
+
+- **Validation**:  
+  All text fields will be validated for correct input before submission.
+
+- **Security**:  
+  User credentials and details are securely handled and not exposed.
